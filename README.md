@@ -1,5 +1,7 @@
 # digital-dev10.github.io
 
+![text](/assets/images/prof.JPEG)
+
 <h1 align="center">Hi 👋, I'm Haitham</h1>
 <h3 align="center">A passionate Designer</h3>
 
