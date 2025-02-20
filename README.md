@@ -19,13 +19,13 @@
 
 ## Favourite Shows
 |Name           |
-|:---           |
+|---           |
 |Dexter         |
 |AOT            |
 |DW Documentary |
 
 ## Favourite Movies
 |Name     |
-|:---     |
+|---     |
 |Marvels  |
 |Star Wars|
