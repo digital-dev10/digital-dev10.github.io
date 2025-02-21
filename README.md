@@ -7,14 +7,14 @@
 >
 >## About Life
 >
->"It’s not the years in your life that count, it’s the life in your years."
->"The best way to predict your future is to create it."
->"The only way to do great work is to love what you do."
->"Start where you are. Use what you have. Do what you can."
+>- "It’s not the years in your life that count, it’s the life in your years."
+>- "The best way to predict your future is to create it."
+>- "The only way to do great work is to love what you do."
+>- "Start where you are. Use what you have. Do what you can."
 >
 >## Favourite Shows
 >- Dexter
->- Attach on Titan
+>- Attack on Titan
 >- DW Documentary
 >- 3 Body Problem
 >
