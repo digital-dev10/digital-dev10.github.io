@@ -109,3 +109,23 @@ audio {
 .projects-link a:hover {
     background-color: #218838;
 }
+
+.trade-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trade-link a {
+    display: inline-block;
+    background-color: #2d3e50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.trade-link a:hover {
+    background-color: #1a2533;
+}
+
