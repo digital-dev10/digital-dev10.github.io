@@ -84,7 +84,7 @@ img:hover {
 }
 
 /* Links */
-.contact-link, .projects-link, .trade-link {
+.contact-link, .projects-link, .trade-link, .blog-link {
     text-align: center;
     margin-top: 25px;
 }
@@ -126,6 +126,16 @@ a {
 
 .trade-link a:hover {
     background-color: #1a2533;
+    transform: translateY(-2px);
+}
+
+.blog-link a {
+    background-color: #6c757d;
+    color: white;
+}
+
+.blog-link a:hover {
+    background-color: #555;
     transform: translateY(-2px);
 }
 
