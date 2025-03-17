@@ -99,42 +99,12 @@ a {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-.contact-link a {
-    background-color: #007bff;
-    color: white;
-}
-
-.contact-link a:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
-}
-
-.projects-link a {
-    background-color: #28a745;
-    color: white;
-}
-
-.projects-link a:hover {
-    background-color: #218838;
-    transform: translateY(-2px);
-}
-
-.trade-link a {
-    background-color: #2d3e50;
-    color: white;
-}
-
-.trade-link a:hover {
-    background-color: #1a2533;
-    transform: translateY(-2px);
-}
-
-.blog-link a {
+.topten-link a {
     background-color: #6c757d;
     color: white;
 }
 
-.blog-link a:hover {
+.topten-link a:hover {
     background-color: #555;
     transform: translateY(-2px);
 }
