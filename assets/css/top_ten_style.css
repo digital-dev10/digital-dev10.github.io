@@ -1,110 +1,88 @@
-/* Import modern Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Libre+Baskerville&display=swap');
 
 :root {
-    --white: #e8eef1; /* Lightest shade */
-    --blue-grotto: #43b0f1; /* Vibrant accent */
-    --royal-blue: #057dcd; /* Primary */
-    --navy-blue: #1e3d58; /* Deep background */
-    --text-color: #fff;
-    --card-bg: rgba(67, 176, 241, 0.15); /* Subtle glass effect */
-    --shadow-color: rgba(0, 0, 0, 0.4);
+    --cream: #f4f2eb;
+    --red: #e4021b;
+    --yellow: #ffdb15;
+    --cornflower: #3f5e98;
+    --text-dark: #121212;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
-/* Body */
 body {
-    background: var(--navy-blue);
-    color: var(--text-color);
-    text-align: center;
+    background: var(--cream);
+    color: var(--text-dark);
+    font-family: 'Libre Baskerville', serif;
     padding: 20px;
+    line-height: 1.6;
 }
 
-/* Header */
 header {
-    background: linear-gradient(135deg, var(--white), var(--blue-grotto));
-    padding: 30px;
+    background-color: var(--red);
+    padding: 30px 20px;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px var(--shadow-color);
+    text-align: center;
 }
 
 header h1 {
     font-size: 2.5rem;
-    font-weight: 600;
-    color: var(--navy-blue);
+    font-family: 'League Spartan', sans-serif;
+    color: var(--cream);
 }
 
-/* Section */
 section {
-    margin-top: 30px;
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     font-size: 1.8rem;
-    color: var(--white);
+    color: var(--cornflower);
     margin-bottom: 20px;
-    text-shadow: 2px 2px 10px var(--white);
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
 }
 
-/* App List */
 .app-list {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 20px;
     padding: 0;
-    margin: 0 auto;
-    max-width: 1100px;
 }
 
 .app-list li {
-    background: var(--card-bg);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px var(--shadow-color);
-    backdrop-filter: blur(10px);
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--yellow);
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* App Info */
-.app-info h3 {
-    font-size: 1.5rem;
-    color: var(--royal-blue);
+.app-list li h3 {
+    color: var(--cornflower);
+    font-size: 1.4rem;
     margin-bottom: 10px;
+    font-family: 'League Spartan', sans-serif;
 }
 
-.app-info p {
+.app-list li p {
+    color: #333;
     font-size: 1rem;
-    line-height: 1.6;
-    color: #ddd;
+    font-family: 'Libre Baskerville', serif;
 }
 
-/* Footer */
 footer {
     margin-top: 50px;
+    text-align: center;
     padding: 20px;
     font-size: 0.9rem;
-    background: linear-gradient(135deg, var(--royal-blue), var(--navy-blue));
-    border-radius: 10px;
-    box-shadow: 0px -5px 15px var(--shadow-color);
-}
-
-footer p {
-    color: #fff;
-    margin: 5px 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-    .app-list {
-        grid-template-columns: 1fr;
-    }
+    color: var(--red);
+    border-top: 2px solid var(--yellow);
 }
